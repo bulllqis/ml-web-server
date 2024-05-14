@@ -1,6 +1,6 @@
 const tfjs = require('@tensorflow/tfjs-node');
 function loadModel() {
-    const modelUrl = "file://models/mode.json";
+    const modelUrl = "file://models/model.json";
     return tfjs.loadLayersModel(modelUrl);
 }
 
